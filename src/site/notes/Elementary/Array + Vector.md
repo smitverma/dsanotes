@@ -22,20 +22,33 @@
 - Stored in **row-major order** : such as | 1 | 2 | 3 | 4 | 5 | 6 | (in memory)
 ## Common operations on array
 
-#### ↣ Reverse an array 
-<div style="position: relative; display: inline-block; cursor: pointer;">
-  <div style="padding: 10px; background-color: #007bff; color: white; border-radius: 5px;">
-    Comp.
-  </div>
-  <div style="visibility: hidden; position: absolute; background-color: #f9f9f9; border: 1px solid #ccc; padding: 10px; border-radius: 5px; top: 100%; left: 50%; transform: translateX(-50%); white-space: nowrap; z-index: 1;">
-    Time complexity : O(n)
-	Space complexity : O(1)
-  </div>
-  <style>
-    div:hover div:nth-child(2) {
-      visibility: visible;
-    }
-  </style>
+#### ↣ Reverse an array
+
+<style>  
+/* Tooltip container */  
+.tooltip {  position: relative;  
+  display: inline-block;  
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */}  
+  
+/* Tooltip text */  
+.tooltip .tooltiptext {  visibility: hidden;  
+  width: 120px;  
+  background-color: black;  
+  color: #fff;  
+  text-align: center;  
+  padding: 5px 0;  
+  border-radius: 6px;  
+   
+  /* Position the tooltip text - see examples below! */  
+  position: absolute;  
+  z-index: 1;}  
+  
+/* Show the tooltip text when you mouse over the tooltip container */  
+.tooltip:hover .tooltiptext {  visibility: visible;}  
+</style>  
+  
+<div class="tooltip">Hover over me  
+  <span class="tooltiptext">Tooltip text</span>  
 </div>
 
 > Funda : Using two pointers to swap elements from the start and end of the array until the pointers meet in the middle.
