@@ -5,7 +5,8 @@
 ***
 ## How does C++ store `int`s in memory?
 ![Pasted image 20241001191313.png|600](/img/user/Attachments/Pasted%20image%2020241001191313.png)
-- The number is stored in binary, with the left-ward remaining spaces filled with 0s. 
+- The number is stored in binary, with the left-ward remaining spaces filled with 0s
+- Same funda for float, long long (64 bits), etc.
 
 ## Decimal to Binary
 
