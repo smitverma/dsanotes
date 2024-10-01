@@ -3,10 +3,8 @@
 ---
 
 ## Array
-
 - Fixed contiguous block of memory
 - Holds elements of same data type
-
 - Declaration :
 	- `int arr[5];`
 - Declare and initialize together :
