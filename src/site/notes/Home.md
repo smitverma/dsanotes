@@ -8,11 +8,11 @@
 ***
 # Topics :
 
-<a href="https://dsanotes-bysmit.vercel.app/elementary/array-vector/" target="_blank"> <button>Array + Vector</button> </a>
-
-<a href="https://dsanotes-bysmit.vercel.app/elementary/binary-bit-manipulation/" target="_blank"> <button>Binary + Bit Manipulation</button> </a>
-
-<a href="https://dsanotes-bysmit.vercel.app/elementary/others/" target="_blank"> <button>Others</button> </a>
+<div style="display: flex; gap: 10px;">
+  <a href="https://dsanotes-bysmit.vercel.app/elementary/array-vector/" target="_blank"> <button>Array + Vector</button> </a>
+  <a href="https://dsanotes-bysmit.vercel.app/elementary/binary-bit-manipulation/" target="_blank"> <button>Binary + Bit Manipulation</button> </a>
+  <a href="https://dsanotes-bysmit.vercel.app/elementary/others/" target="_blank"> <button>Others</button> </a>
+</div>
 
 ***
 ## In this repo :
