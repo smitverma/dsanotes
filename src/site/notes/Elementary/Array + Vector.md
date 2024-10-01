@@ -3,6 +3,7 @@
 ---
 
 ## Array
+
 - Fixed contiguous block of memory
 - Holds elements of same data type
 
