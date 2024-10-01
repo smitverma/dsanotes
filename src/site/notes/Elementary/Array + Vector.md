@@ -16,6 +16,7 @@
 - Accessing elements :
 	- Access first element : `arr[0];`
 	- Access last element : `arr[ ( sizeof(arr) / sizeof(arr[0]) ) - 1 ];`
+
 ##### Multidimensional array 
 - Declaration : 
 	- `int mat[2][3] = {{1, 2, 3}, {4, 5, 6}};`
