@@ -37,9 +37,9 @@ void reverseArray(int arr[], int size) {
 }
 ```
 
-> Complexities :
-> Time : O(n)
-> Space : O(1)
+> **Complexities :**
+> *Time : O(n)*
+> *Space : O(1)*
 
 #### ↣ Find all subsets of array
 
