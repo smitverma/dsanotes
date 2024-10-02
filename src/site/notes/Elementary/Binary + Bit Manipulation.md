@@ -65,3 +65,11 @@ int binToDecimal(int n) {
 ```
 
 ***
+## 1s and 2s complement
+> Funda : Convert the number to binary, and flip the bits.
+
+Mathematical concept :
+![m.png|400](/img/user/Attachments/m.png)
+
+***
+
