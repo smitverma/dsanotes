@@ -21,13 +21,31 @@
 	- `int mat[2][3] = {{1, 2, 3}, {4, 5, 6}};`
 - Stored in **row-major order** : such as | 1 | 2 | 3 | 4 | 5 | 6 | (in memory)
 ## Common operations on array
-
+#### ↣ Find min / max in array
+> Funda : Set min and max to `arr[0]`, perform a single linear iteration, and compare / update.
+```cpp
+void minMax(int arr[], int n) {
+    int min = arr[0];
+    int max = arr[0];
+    
+    for (int i = 0; i < n; i++){
+        if(min > arr[i])
+            min = arr[i];
+        if(max < arr[i])
+            max = arr[i];
+    }
+    
+    cout<<min<<endl;
+    cout<<max;
+}
+// Time : O(n), Space : O(1)
+```
 #### ↣ Reverse an array
 > Funda : Using two pointers to swap elements from the start and end of the array until the pointers meet in the middle.
 ```cpp
-void reverseArray(int arr[], int size) {
+void reverseArray(int arr[], int n) {
 	int left = 0; // Start pointer
-	int right = size - 1; // End pointer
+	int right = n - 1; // End pointer
 
 	while (left < right) {
 		swap(arr[left], arr[right]); // Swap elements
@@ -35,12 +53,6 @@ void reverseArray(int arr[], int size) {
 		right--; // Move the end pointer to the left
 	}
 }
+// Time : O(n), Space : O(1)
 ```
-
-> **Complexities :**
-> *Time : O(n)*
-> *Space : O(1)*
-
 #### ↣ Find all subsets of array
-
-\

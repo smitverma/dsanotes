@@ -2,7 +2,11 @@
 {"dg-publish":true,"permalink":"/elementary/others/"}
 ---
 
-- Calculate nth power of 2 : 
-	- `pow(2, n)    //Using <cmath>`
-	- `1<<n    //Left shift 1 n-times... 1, 2, 4, 8...`
 
+- When you pass a C-style array to a function, it decays into a pointer, so you cannot use the parameter for stuff like :
+	- foreach loop
+	- sizeof(arr)
+	
+	The solution is to use a C++ std::array / std::vector, or to calculate size locally and send it as argument (and then use index-based for loop).
+
+ - 

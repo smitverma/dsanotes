@@ -11,7 +11,7 @@
 ## Decimal to Binary
 
 Mathematical concept :
-![Screenshot 2024-10-01 155441.png|400](/img/user/Attachments/Screenshot%202024-10-01%20155441.png)
+![Screenshot 2024-10-01 155441.png|500](/img/user/Attachments/Screenshot%202024-10-01%20155441.png)
 
 Code :
 ```cpp
