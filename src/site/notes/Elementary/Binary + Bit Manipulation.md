@@ -72,10 +72,39 @@ Mathematical concept :
 ![m.png|400](/img/user/Attachments/m.png)
 
 ***
-## AND, OR, XOR, NOT
-![Pasted image 20241003093144.png|700](/img/user/Attachments/Pasted%20image%2020241003093144.png)
+## AND, OR, NOT, SHIFT
 
-In C++ :
-- & operator : `13 & 7 = 5`
-- | operator : `13 | 7 = 15`
-- 
+Truth Tables :
+![Pasted image 20241003093144.png|600](/img/user/Attachments/Pasted%20image%2020241003093144.png)
+### C++ examples :
+- `&` operator : `13 & 7 = 5`
+- `|` operator : `13 | 7 = 15`
+- `!` operator : !13 
+- `<<` operator : 
+  Formula : `n << k = n * 2ᵏ`
+  Example : `13 << 2 = 52 = 13*2*2 = 13*(2²)`
+- `>>` operator : 
+  Formula : `n >> k = n / 2ᵏ`
+  Example : `13 >> 2 = 3 = 13/2/2 = 13/(2²)`
+***
+## XOR
+- Formula : 
+	- If bits are same, result is 0
+	- If bits are different, result is 1
+***
+## Storing negative numbers
+- **Signed** numbers are used to store +ve and -ve numbers
+- They mark a number as positive or negative using the MSB (left-most bit) as :
+	- 0 for +ve
+	- 1 for -ve
+- So to get 1 at the MSB, computers just store the negative numbers in their 2s complement
+- Therefore, range of int in a n-bit system is `-2ⁿ⁻¹ (INT_MIN)` to `2ⁿ⁻¹ - 1 (INT_MAX)`
+#### Example :
+Storing `-13` in an `8-bit` system :  
+- Binary value of `13` : `00001101`
+- `1s` complement : `11110010`
+- `2s` complement : `11110011`
+- So the computer stores `11110011` in its memory
+- Here, the 2s comp. can be used directly in mathematical calculation
+- When needed, the computer reverses the process, and displays `-13` to the user
+***
