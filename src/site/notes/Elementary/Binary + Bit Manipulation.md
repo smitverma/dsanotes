@@ -72,4 +72,10 @@ Mathematical concept :
 ![m.png|400](/img/user/Attachments/m.png)
 
 ***
+## AND, OR, XOR, NOT
+![Pasted image 20241003093144.png|700](/img/user/Attachments/Pasted%20image%2020241003093144.png)
 
+In C++ :
+- & operator : `13 & 7 = 5`
+- | operator : `13 | 7 = 15`
+- 
